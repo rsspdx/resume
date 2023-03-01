@@ -2,7 +2,9 @@
 \usepackage{geometry}
 \geometry{lmargin=1.1in, rmargin=1.1in, tmargin=1.25in, bmargin=1.25in}
 \usepackage{babel}
-\usepackage[unicode]{hyperref}
+\usepackage{xcolor}
+	\definecolor{navy}{rgb}{0.1,0.2,0.4}
+\usepackage[unicode, colorlinks=true, urlcolor=navy]{hyperref}
 \usepackage{fontspec}
 \setmainfont{Avenir}
 \usepackage{parskip}
@@ -13,8 +15,7 @@
 %\usepackage{graphicx}
 \usepackage{multicol}
 
-%\usepackage{xcolor}
-%\definecolor{navy}{rgb}{0.1,0.2,0.4}
+
 
 \usepackage{fancyhdr}
 \thispagestyle{fancy}
@@ -71,13 +72,13 @@ Projects
 
 \begin{footnotesize}
 	\begin{packed_itemize}
-		\item{MapMinder}
+		\item{\href{https://github.com/rsspdx/mapminder}{MapMinder}}
 			\begin{packed_itemize}
 				\item World choropleth maps of $\sim$100 user-chosen variables
 				\item Python / JavaScript  / Django / plotly.js / pandas / HTML / CSS / R
 				\item Displays raw values and residuals from locally weighted regressions on GDP per capita
 			\end{packed_itemize}
-		\item{MentCom}
+		\item{\href{https://github.com/rsspdx/mentcom}{MentCom}}
 			\begin{packed_itemize}
 				\item Comment forum for New York Times articles; consumes NYT API
 				\item Python / Django / HTML / CSS
@@ -85,7 +86,7 @@ Projects
 			\end{packed_itemize}
 		\item{Publications}
 			\begin{packed_itemize}
-			\item \emph {Review of International Political Economy} 2009, 
+			\item  \emph {Review of International Political Economy} 2009, 
 				\emph{Current Politics and Economics of Europe} 2007, 
 				\emph{The World Economy} 2006, 
 				\emph{Comparative Political Studies} 2002, 
